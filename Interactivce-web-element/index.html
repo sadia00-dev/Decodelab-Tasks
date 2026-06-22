@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Web Elements</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+   <header>
+        <h1>Interactive Web Elements</h1>
+         <button id="themeBtn" class="toggle-btn">
+             <span class="fa-stack">
+                <i class="fa-solid fa-sun fa-stack-1x sun"></i>
+                <i class="fa-solid fa-moon fa-stack-1x moon"></i>
+             </span>
+         </button>
+     </header>
+
+<main>
+    <section class="counter-section">
+         <h2>Counter App</h2>
+         <p id="count">0</p>
+        <div class="btn-group">
+            <button id="increase">+</button>
+            <button id="decrease">−</button>
+            <button id="reset">Reset</button>
+        </div>
+    </section>
+
+    <section class="message-section">
+        <h2>Dynamic Message</h2>
+        <button id="messageBtn">Show Message</button>
+        <p id="message"></p>
+    </section>
+</main>
+
+    <script src="index.js"></script>
+</body>
+</html>

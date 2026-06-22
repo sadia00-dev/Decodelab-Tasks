@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive WebPage Layout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <nav class="navbar">
+                <h1>Logo</h1>
+                <input type="checkbox" id="menu-toggle">
+                <ul class="nav-links">
+                    <li> <a href="#">Home</a></li>
+                    <li> <a href="#">About</a></li>
+                    <li> <a href="#">Services</a></li>
+                    <li> <a href="#">Contact</a></li>
+                </ul>
+                <!-- Label for Hamburger -->
+                 <label for="menu-toggle" class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                 </label>
+            </nav>
+        </header>
+        <div class="wrapper">
+        <aside class="sidebar">sidebar</aside>
+   
+        <main class="Main">
+            <div class="card">
+                <img src="assets/img1.jfif" alt="#">
+                <p>Smarter, faster, better. </p>
+                <button>card-btn</button>
+            </div>
+
+             <div class="card">
+                <img src="assets/img2.jfif" alt="#">
+                <p>The future is wireless.</p>
+                <button>card-btn</button>
+            </div>
+
+             <div class="card">
+                <img src="assets/img3.jfif" alt="#">
+                <p>Plugged in and leveling up.</p>
+                <button>card-btn</button>
+            </div>
+            </div>
+        </main>
+        <footer class="footer">
+               <p>&copy; 2026 TechWorld. All Rights Reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>

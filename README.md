@@ -28,5 +28,4 @@ A JavaScript project featuring interactive components such as:
 **Author**
 Um E Sadia
 
-Sadia
 GitHub: https://github.com/sadia00-dev
